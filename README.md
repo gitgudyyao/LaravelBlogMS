@@ -42,8 +42,9 @@ php artisan migrate
 ```
 # Misc.
 All CRUD Operations has data validation for inputs as demonstrated when adding a new blog post below:
-Field validation has been added
-to all relevant categories
-![image](https://user-images.githubusercontent.com/52448621/123911846-dec63280-d9ae-11eb-96e1-ee425c38138e.png)
+Field validation has been added to all relevant categories
+![image](https://user-images.githubusercontent.com/52448621/123911948-01f0e200-d9af-11eb-884e-afbf4fcdf18b.png)
+
+![image](https://user-images.githubusercontent.com/52448621/123911924-fac9d400-d9ae-11eb-8436-c540e705d5cd.png)
 
 
