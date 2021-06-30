@@ -41,10 +41,32 @@ Run migration with
 php artisan migrate
 ```
 # Misc.
-All CRUD Operations has data validation for inputs as demonstrated when adding a new blog post below:
-Field validation has been added to all relevant categories
-![image](https://user-images.githubusercontent.com/52448621/123911948-01f0e200-d9af-11eb-884e-afbf4fcdf18b.png)
 
-![image](https://user-images.githubusercontent.com/52448621/123911924-fac9d400-d9ae-11eb-8436-c540e705d5cd.png)
+![image](https://user-images.githubusercontent.com/52448621/123912171-47151400-d9af-11eb-86a8-773b4ea15dd9.png)
+
+All CRUD Operations has data validation for inputs as demonstrated when adding a new blog post below;
+
+
+Field validation has been added to all relevant categories:
+
+![image](https://user-images.githubusercontent.com/52448621/123912004-1634df00-d9af-11eb-9432-ec13e66d6997.png)
+
+Blog Management System is seeded by random data
+![image](https://user-images.githubusercontent.com/52448621/123912062-2482fb00-d9af-11eb-91c5-a1d5bb1f0874.png)
+
+User Authentication
+
+Users will be greeted in the login page when chosen, and will be prompted to sign up if they have not done so.
+The role of the user is shown in the dashboard:
+
+![image](https://user-images.githubusercontent.com/52448621/123912125-395f8e80-d9af-11eb-850c-682e6275158b.png)
+
+![image](https://user-images.githubusercontent.com/52448621/123912210-54320300-d9af-11eb-8df2-b041904d8213.png)
+
+Gates is the main authorization of this application. Each time a user is trying to access
+CRUD functions, gates will be called to verify the current role of the user using ‘isAdmin’, ‘isUser’ or ‘isWriter’.
+
+![image](https://user-images.githubusercontent.com/52448621/123912247-5f852e80-d9af-11eb-8a1f-a12f1ad3cf16.png)
+
 
 
