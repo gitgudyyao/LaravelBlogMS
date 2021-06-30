@@ -40,4 +40,10 @@ Run migration with
 ```bash
 php artisan migrate
 ```
+# Misc.
+All CRUD Operations has data validation for inputs as demonstrated when adding a new blog post below:
+Field validation has been added
+to all relevant categories
+![image](https://user-images.githubusercontent.com/52448621/123911846-dec63280-d9ae-11eb-96e1-ee425c38138e.png)
+
 
