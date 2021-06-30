@@ -40,4 +40,36 @@ Run migration with
 ```bash
 php artisan migrate
 ```
+# Misc.
+
+![image](https://user-images.githubusercontent.com/52448621/123912171-47151400-d9af-11eb-86a8-773b4ea15dd9.png)
+
+All CRUD Operations has data validation for inputs as demonstrated when adding a new blog post below;
+
+
+Field validation has been added to all relevant categories:
+
+![image](https://user-images.githubusercontent.com/52448621/123912004-1634df00-d9af-11eb-9432-ec13e66d6997.png)
+
+Blog Management System is seeded by random data using Faker function to seed fake data in database
+
+![image](https://user-images.githubusercontent.com/52448621/123912381-8cd1dc80-d9af-11eb-80d8-b26acf79953f.png)
+
+User Authentication
+
+Users will be greeted in the login page when chosen, and will be prompted to sign up if they have not done so.
+The role of the user is shown in the dashboard:
+
+![image](https://user-images.githubusercontent.com/52448621/123912322-7a57a300-d9af-11eb-94f5-2a74d63b0b16.png)
+
+
+![image](https://user-images.githubusercontent.com/52448621/123912210-54320300-d9af-11eb-8df2-b041904d8213.png)
+
+Gates is the main authorization of this application. Each time a user is trying to access
+CRUD functions, gates will be called to verify the current role of the user using ‘isAdmin’, ‘isUser’ or ‘isWriter’.
+
+![image](https://user-images.githubusercontent.com/52448621/123912312-74fa5880-d9af-11eb-986e-059cea9622f0.png)
+
+
+
 
